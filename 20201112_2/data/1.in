@@ -1,0 +1,5 @@
+S = nestr("QWTFaf")
+-S
+N = nestr(5)
+S*N
+S+S

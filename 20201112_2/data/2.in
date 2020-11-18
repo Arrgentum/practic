@@ -1,0 +1,2 @@
+N = nestr("AAA")
+type(N)

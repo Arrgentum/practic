@@ -16,7 +16,7 @@ output_string2 = "{:{d}} |"
 output_string1 = output_string1*(f-1) + "{:^{d}}"
 output_string2 = output_string2*(k-1) + "{:^{d}}"
 i = 0
-print(c, d, k, f)
+#print(c, d, k, f)
 while i < c:
     print(delimeter_string)
     j = 1
