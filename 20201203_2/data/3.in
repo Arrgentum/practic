@@ -1,0 +1,14 @@
+class D(metaclass=check):
+    A: int
+    B: str = "QQ"
+    C: float = "lll"
+    T = 15
+
+d = D()
+print(d.check_annotations())
+d.C = 3.2
+print(d.check_annotations())
+d.A = 1024
+print(d.check_annotations())
+d.T = "prac"
+

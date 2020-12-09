@@ -1,0 +1,10 @@
+class D(metaclass=check):
+    nunber: int = 42
+    s: str = "abc"
+
+d = D()
+print(d.check_annotations())
+d.number = 100500
+d.s = "QuEuE"
+print(d.check_annotations())
+
