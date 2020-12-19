@@ -1,11 +1,10 @@
-class nestr(str):
-	def __neg__(self):
-		return nestr("".join(reversed(self)))
+from collections import *
 
-	def __add__(self, other):
-		return nestr("".join(str(self)+str(other)))
-	
-	def __mul__(self, other):
-		return nestr("".join(str(self) * int(other)))
+
+class nestr(UserString):
+    def __neg__(self):
+        self.data = ("".join(reversed(list(self.data))))
+        return self.__class__(self.data)
+
 
 print(eval(input()))

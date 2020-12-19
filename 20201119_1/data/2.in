@@ -1,0 +1,13 @@
+@deccount
+def fun1(a, b):
+    return a*2+b
+@deccount
+def fun2(x=1, y=2, z=3):
+    return x+y+z
+fun1(1,1)
+fun1(2,2)
+fun1("asd", "fasd")
+fun2()
+fun2()
+fun1(1,0)
+fun2()

@@ -1,0 +1,5 @@
+class C:
+    num = Num()
+A, B = C(), C()
+A.num = [i for i in range(0,1000,10)]
+print(B.num, A.num)

@@ -1,2 +1,1 @@
-N = nestr("AAA")
-type(N)
+type(-nestr("AAA"))
