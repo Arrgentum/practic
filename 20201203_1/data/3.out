@@ -1,7 +1,7 @@
-__init__: ( ('I',) ) ( {} )
-add: ( (' do ',) ) ( {} )
+__init__: ('I',), {}
+add: (' do ',), {}
 I do I
-add: ( (' this ',) ) ( {} )
+add: (' this ',), {}
 I this I
-add: ( ('task.',) ) ( {} )
+add: ('task.',), {}
 Itask.I

@@ -25,12 +25,16 @@ for i in d:
 	if (not sci1 or (sci1 and sci1.group() != i )) and (not sci2 or ( sci2 and sci2.group() != i )):	
 		b2 = False
 
+if b1 or b2:
+    print("True")
+else:
+    print("False")
 
-if b2:
-	print("science numbers = Yes")
-else:
-	print("science numbers = No")
-if b1:
-	print("decimal numbers = Yes")
-else:
-	print("decimal numbers = No")
+#if b2:
+#	print("science numbers = Yes")
+#else:
+#	print("science numbers = No")
+#if b1:
+#	print("decimal numbers = Yes")
+#else:
+#	print("decimal numbers = No")

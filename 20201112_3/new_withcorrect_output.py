@@ -29,4 +29,4 @@ while bool1:
 				S(x1,x2,x3,y1,y2,y3)
 				bool1 = not bool1
 	except:
-		print("Ivalid input")
+		print("Invalid input")
