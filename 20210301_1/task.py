@@ -7,10 +7,16 @@ class Application(tk.Frame):
         self.createWidgets()
 
     def createWidgets(self):
+    	self.exitButton = tk.Button(self, text='Exit', command=self.exit)
     	self.itemLabel = tk.Label(self, textvariable = self.var)
     	self.itemLabel.grid(row = 0, column = 2)
         self.nextItem.grid(row = 0, column = 3)
         self.exitButton.grid(row = 0, column = 4)
+
+    
+    def exit(self):
+        """Handler for the exit button that closes the application window"""
+        self.quit()
 
 
 
