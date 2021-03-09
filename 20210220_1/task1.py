@@ -1,10 +1,15 @@
 import tkinter as tk
+import time
 
 class Application(tk.Frame):
     def __init__(self, master=None):
         tk.Frame.__init__(self, master)
         self.grid()
         self.createWidgets()
+        self.showtime()
+
+    def showtime(self):
+        self.time.set(time.strftime("%c"))
 
     def createWidgets(self):
         self.quitButton = tk.Button(self, text='Quit', command=self.quit)
