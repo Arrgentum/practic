@@ -12,6 +12,7 @@ class Application(tk.Frame):
         self.time.set(time.strftime("%c"))
 
     def createWidgets(self):
+        self.time = tk.StringVar()
         self.timeButton = tk.Button(self, text='Time', command=self.showtime)
         self.quitButton = tk.Button(self, text='Quit', command=self.quit)
         self.timeLabel = tk.Label(self, textvariable=self.time)
