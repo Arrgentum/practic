@@ -1,6 +1,3 @@
-'''
-Tkinter skeleton app
-'''
 import tkinter as tk
 from MVC import Model, View, Control
 

@@ -1,8 +1,3 @@
-'''
-Skeleton MVC application module.
-
-Provides three base classes for application build.
-'''
 import tkinter as tk
 
 class View(tk.Frame):
