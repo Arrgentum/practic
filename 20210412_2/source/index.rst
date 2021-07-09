@@ -10,7 +10,7 @@ Welcome to homework1's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   task
 
 Indices and tables
 ==================

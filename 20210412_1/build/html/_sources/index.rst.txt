@@ -16,7 +16,10 @@ Welcome to Homework's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+.. figure:: _static/picture.jpg
+       :scale: 100 %
+       :align: center
+       :alt: Альтернативный текст
 
 Indices and tables
 ==================
