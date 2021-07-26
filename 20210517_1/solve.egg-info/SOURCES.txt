@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+solve/__init__.py
+solve/__main__.py
+solve/test.py
+solve.egg-info/PKG-INFO
+solve.egg-info/SOURCES.txt
+solve.egg-info/dependency_links.txt
+solve.egg-info/requires.txt
+solve.egg-info/top_level.txt
